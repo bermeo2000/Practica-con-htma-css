@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Inicio de seccion 1 */
+.contenedor-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner_1.png);
+    background-position: center;
+}
+.cabecera{
+    background-color: black ;
+    background: linear-gradient(180deg, rgba(0,0,0), rgba(0,0,0,0));
+    height: 100px;
+    display: flex;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    padding-left: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.navegacion{
+
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+    overflow: hidden;
+}
+
+.link{
+    color: #fff;
+    padding: 70px 30px;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+.link:hover{
+    background-color: #636262;
+    color: #fff;
+
+}
+
+.banner{
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.banner_texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    color: #fff;
+}
+.banner_texto h1{
+  font-size: 50px;
+}
+.banner_texto p{
+    font-size: 34px;
+    margin: 20px 0 75px 0;
+}
+.banner_texto a{
+  background-color: #f64b3c;
+  padding: 20px 50px;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 40px;
+}
+
+.banner_texto a:hover{
+    background-color:#e99898;
+   
+  }
+
+  /* Fin de seccion 1 */
+
+  /* Inicio de seccion 2 */
+.contenedor-2{
+width: 100%;
+height: 80vh;
+display: flex;
+background-color: #f6eedf;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #f64b3c;
+}
+
+.text{
+width: 70%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:  #f64b3c;
+}
+
+.text h2{
+font-size: 36px;
+}
+
+.text p{
+    margin: 54px;
+    font-size: 20px;
+
+}
+ 
+.foto{
+
+width: 70%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 50px;
+}
+
+.foto_img{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.foto_img img{
+border-radius: 50%;
+}
+.foto_img h3{
+margin: 10px 0;
+font-size: 20px;
+
+}
+.foto_img p{
+font-size: 20px;
+
+}
+
+
+
+  /* Fin de seccion 2 */
+
